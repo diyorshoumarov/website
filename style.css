@@ -1,0 +1,200 @@
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#header {
+    background-color:#000; 
+    border-bottom: 3px solid #ff0000;
+}
+
+#header h1{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+#banner {
+    height: 500px;
+    background-image: url("img/bg-banner.JPG");
+    background-size: cover;
+    background-position: center;   
+}
+
+#courses {
+    padding-top: 30px;
+}
+
+#courses h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.course-box {
+    float: left;
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    width: 33.3%;
+}
+
+.course-box img {
+    width: 50px;
+}
+
+#hackerrank {
+    height: 420px;
+    background-attachment: fixed;
+    background-image: url("img/bg-certificates.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 30px 0;
+}
+
+#hackerrank h2 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.certificate-box {
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 33.3%;
+}
+
+.certificate-box img {
+    width: 150px;
+}
+
+#hackerrank .certificate-box a {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#hackerrank .link {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#hackerrank .link a {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#sololearn {
+    font-family: sans-serif;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#sololearn h2 {
+    padding-bottom: 30px;
+}
+
+#sololearn .certificate-box a{
+    color: #000;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#sololearn .link a {
+    color: #000;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#projects {
+    color: #333;
+    background-attachment: fixed;
+    background-image: url("img/bg-projects.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 280px;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+#projects a {
+    color: #333;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#calculator {
+    border: none;
+    height: 245px;
+    width: 200px;
+}
+
+
+#inputs {
+    font-family: sans-serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#inputs h3 {
+    padding: 15px 0;
+} 
+
+#inputs form {
+    background-color: coral;
+    border: 2px solid #ff0000;
+}
+
+#inputs input {
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 70%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#inputs textarea {
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: sans-serif;
+    height: 50px;;
+    width: 70%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.button {
+    border: 1px solid red;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    padding: 3px;
+    
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#footer {
+    background-color: #000;
+    border-top: 3px solid #ff0000;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.clr {
+    clear: both;
+}
